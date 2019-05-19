@@ -11,8 +11,8 @@ buildscript {
     }
     dependencies {
         classpath 'org.wisepersist:gwt-gradle-plugin:1.0.6'
-        classpath 'com.android.tools.build:gradle:3.1.0'
-        classpath 'com.mobidevelop.robovm:robovm-gradle-plugin:2.3.3'
+        classpath 'com.android.tools.build:gradle:3.2.0'
+        classpath 'com.mobidevelop.robovm:robovm-gradle-plugin:2.3.5'
         
 
     }
@@ -24,9 +24,9 @@ allprojects {
 
     version = '1.0'
     ext {
-        appName = "carrom-ko"
-        gdxVersion = '1.9.8'
-        roboVMVersion = '2.3.3'
+        appName = "carromKO"
+        gdxVersion = '1.9.9'
+        roboVMVersion = '2.3.5'
         box2DLightsVersion = '1.4'
         ashleyVersion = '1.7.0'
         aiVersion = '1.8.0'

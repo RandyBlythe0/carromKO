@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Map>
+	<Player radius="0.2" density="1" restitution="0.7">
+		<Coin posx="0" posy="0"></Coin>
+		<Coin posx="1" posy="1"></Coin>
+	</Player>
+	<Wall>
+		<Edge posx="0" posy="0" edgex1="5.5" edgey1="3" edgex2="-5.5" edgey2="3"></Edge>
+		
+		<Edge posx="0" posy="0" edgex1="5.5" edgey1="-3" edgex2="-5.5" edgey2="-3"></Edge>
+		<Edge posx="0" posy="0" edgex1="5.5" edgey1="3" edgex2="5.5" edgey2="-3"></Edge>
+		<Edge posx="0" posy="0" edgex1="-5.5" edgey1="3" edgex2="-5.5" edgey2="-3"></Edge>
+	</Wall>
+</Map>

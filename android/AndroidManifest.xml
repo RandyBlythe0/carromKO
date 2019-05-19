@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.svgames.carromko" >
-
-    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="28" />
+    package="com.svg.carromko" >
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
+        android:isGame="true"
+        android:appCategory="game"
         android:label="@string/app_name"
         android:theme="@style/GdxTheme" >
         <activity
-            android:name="com.svgames.carromko.AndroidLauncher"
+            android:name="com.svg.carromko.AndroidLauncher"
             android:label="@string/app_name" 
             android:screenOrientation="landscape"
             android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout">
